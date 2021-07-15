@@ -24,4 +24,5 @@ let typed = new Typed('.typed-text', {
 
 $(document).ready( function() {
   $("#oop").load("components/oop.html");
+  $("#team").load("components/team.html");
 });

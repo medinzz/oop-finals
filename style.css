@@ -1,0 +1,121 @@
+html, body {
+  height: 100%;
+  font-size: 14px;
+}
+.hero-title{
+  font-size: 7rem !important;
+}
+
+.hero-subtitle{
+  font-size: 2rem !important;
+}
+
+.hero{
+  background: url('assets/images/hero.jpg');
+  color: #FFF;
+}
+.table-of-content{
+  background: url('assets/images/table-of-content.jpg');
+  color: #FFF;
+}
+.oop-template{
+  background-image: url('assets/images/oop-template.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  height: 100% !important;
+  width: 100%;
+}
+
+.parallax-background{
+  background-size: cover; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  height: 100% !important;
+  width: 100%;
+}
+
+.text-heading{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-montserrat{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2;
+  /* identical to box height */
+  letter-spacing: 0.15em;
+}
+
+.toc-title{
+  font-size: 2rem !important;
+  text-decoration: none;
+}
+
+.team-card-bg{
+  background-color: #8f8f8f;
+}
+
+.team-text{
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #FFF !important;
+  letter-spacing: none !important;
+}
+
+.team-heading{
+  font-size: 1rem !important;
+  color: #FFF !important;
+  letter-spacing: none !important;
+}
+
+.team-title{
+  text-shadow: none;
+}
+
+.team-card-bg-2{
+  background-color: #fff;
+}
+
+.team-text-2{
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #000 !important;
+  letter-spacing: none !important;
+}
+
+.team-heading-2{
+  font-size: 1rem !important;
+  color: #000 !important;
+  letter-spacing: none !important;
+}
+
+a {color:#FFF;}         /* Unvisited link  */
+a:visited {color:#FFF;} /* Visited link    */
+a:hover {color:gainsboro;}   /* Mouse over link */
+a:active {color:#FFF;}  /* Selected link   */
+
+@media only screen and (max-width: 576px) {
+  .text-heading{
+  font-size: 2rem !important;
+  }
+  .hero-title{
+    font-size: 3rem !important;
+  }
+  .hero-subtitle{
+    font-size: 1rem !important;
+  }
+  .toc-title{
+  font-size: 1rem !important;
+  }
+} 
