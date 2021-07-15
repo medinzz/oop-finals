@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap 5.0.2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
+  
+  <!-- google fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+
+ <style>
+    html, body {
+      height: 100%;
+      font-size: 14px;
+    }
+    .hero-title{
+      font-size: 7rem !important;
+    }
+
+    .hero-subtitle{
+      font-size: 2rem !important;
+    }
+
+    .hero{
+      background: url('assets/images/hero.jpg');
+      color: #FFF;
+    }
+    .table-of-content{
+      background: url('assets/images/table-of-content.jpg');
+      color: #FFF;
+    }
+    .oop-template{
+      background-image: url('assets/images/oop-template.png');
+      background-size: cover; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      height: 100% !important;
+      width: 100%;
+    }
+
+    .parallax-background{
+      background-size: cover; 
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      height: 100% !important;
+      width: 100%;
+    }
+
+    .text-heading{
+      font-family: 'Bebas Neue', cursive;
+      font-size: 4rem;
+      font-style: normal;
+      font-weight: normal;
+      text-align: center;
+      letter-spacing: 0.15em;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .text-montserrat{
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2;
+      /* identical to box height */
+      letter-spacing: 0.15em;
+    }
+
+    .toc-title{
+      font-size: 2rem !important;
+      text-decoration: none;
+    }
+
+    .team-card-bg{
+      background-color: #8f8f8f;
+    }
+
+    .team-text{
+      font-size: 12px;
+      letter-spacing: 0;
+      color: #FFF !important;
+      letter-spacing: none !important;
+    }
+
+    .team-heading{
+      font-size: 1rem !important;
+      color: #FFF !important;
+      letter-spacing: none !important;
+    }
+
+    .team-title{
+      text-shadow: none;
+    }
+
+    .team-card-bg-2{
+      background-color: #fff;
+    }
+
+    .team-text-2{
+      font-size: 12px;
+      letter-spacing: 0;
+      color: #000 !important;
+      letter-spacing: none !important;
+    }
+
+    .team-heading-2{
+      font-size: 1rem !important;
+      color: #000 !important;
+      letter-spacing: none !important;
+    }
+
+    a {color:#FFF;}         /* Unvisited link  */
+    a:visited {color:#FFF;} /* Visited link    */
+    a:hover {color:gainsboro;}   /* Mouse over link */
+    a:active {color:#FFF;}  /* Selected link   */
+
+    @media only screen and (max-width: 576px) {
+      .text-heading{
+      font-size: 2rem !important;
+      }
+      .hero-title{
+        font-size: 3rem !important;
+      }
+      .hero-subtitle{
+        font-size: 1rem !important;
+      }
+      .toc-title{
+      font-size: 1rem !important;
+      }
+    } 
+  </style>
+</head>
+<body id="body">
+  <header id="header" class="header">
+    <!-- navigation -->
+  </header>
+
+  <!-- Main -->
+  <section class="hero parallax-background bg-secondary py-5">
+    <div class="h-100 text-center py-5">
+      <div class="h-50 my-auto py-5">
+        <h2 class="text-montserrat hero-subtitle mt-5">WELCOME TO OUR</h2>
+        <h1 class="hero-title text-heading">E-PORTFOLIO </h1>
+        <h2 class="d-inline text-montserrat hero-subtitle">By: </h2>
+        <h2 class="d-inline typed-text text-montserrat hero-subtitle"></h2>
+        <h2 class="text-montserrat hero-subtitle">DICT 2-1</h2>
+      </div>
+    </div>
+  </section>
+  <section class="table-of-content parallax-background bg-secondary">
+    <div class="h-100 text-center p-5">
+      <div class="h-50 my-auto">
+        <h1 class="text-heading">Table of Contents</h1s>
+        <a href="#oop" class="d-block text-montserrat toc-title pt-4 px-5">
+          WHAT IS OOP?
+        </a>
+        <a href="#examples" class="d-block text-montserrat toc-title pt-4 px-5">
+          WHAT ARE THE FOUR BASIC OBJECT-ORIENTED PROGRAMMING AND EXAMPLES?
+        </a>
+        <a href="#models" class="d-block text-montserrat toc-title pt-4 px-5">
+          OBJECT-ORIENTED REQUIREMENTS MODELS
+        </a>
+        <a href="#team" class="d-block text-montserrat toc-title pt-4 px-5">
+          OUR TEAM
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="oop" class="w-100 oop-template">
+
+  </section>
+  <section id="examples" class="w-100">
+  </section>
+  <section id="requirements" class="w-100">
+  </section>
+  <section id="team" class="w-100 h-100 my-5">
+    <h1 class="text-heading team-title">OUR TEAM</h1s>
+    <div class="container p-5">
+      <div class="row py-2"> 
+        <!-- individual card -->
+          <div class="team-card-bg p-5">
+            <div class="row">
+              <div class="col-md-4 text-center py-4">
+                <img src="assets/images/individual/ayap.jpg" alt="ayap.jpg" class="img-fluid w-75 rounded-circle">
+                <h4 class="text-montserrat team-heading py-2">Ayap, Kathleen Shayne</h4>
+              </div>
+              <div class="col-md-8 text-center">
+                <p class="text-montserrat team-text">
+                  To put everything in place, I always thought that we need to work hard for it and strive for something we want. I think that what keeps me going, the love I have with my family, God and for everything and everyone around me. They are the reason why I chose ICT because it gives me a new environment to work in. Keep Striving, life may be hard, but we’ll get there!
+                </p>
+                
+                <h4 class="text-montserrat team-heading pt-4">My OOP Reflection</h4>
+                <p class="text-montserrat team-text">
+                  Object-oriented programming (OOP), before I thought it is just another subject that we need to take. But, this taught me how to be strong enough to face the challenges brought by online classes. It is very challenging for me to take this because it is a critical one that really requires knowledge and understanding in programming and it is I think what I lack. but, Ma’am Fajardo helped me and my classmates to better understand the topic she discussed. We are free to ask questions anytime. She helped us to think outside the box and work outside our comfort zones. What I learned from her will never be forgotten, so will she.
+                </p>
+              </div>
+            </div>
+          </div>
+        <!-- end individual card -->
+      </div>
+      <div class="row py-2"> 
+        <!-- individual card -->
+          <div class="team-card-bg-2 p-5">
+            <div class="row">
+              <div class="col-md-4 text-center py-4">
+                <img src="assets/images/individual/ayap.jpg" alt="ayap.jpg" class="img-fluid w-75 rounded-circle">
+                <h4 class="text-montserrat team-heading-2 py-2">Ayap, Kathleen Shayne</h4>
+              </div>
+
+              <div class="col-md-8 text-center">
+                <p class="text-montserrat team-text-2">
+                  To put everything in place, I always thought that we need to work hard for it and strive for something we want. I think that what keeps me going, the love I have with my family, God and for everything and everyone around me. They are the reason why I chose ICT because it gives me a new environment to work in. Keep Striving, life may be hard, but we’ll get there!
+                </p>
+                
+                <h4 class="text-montserrat team-heading-2 pt-4">My OOP Reflection</h4>
+                <p class="text-montserrat team-text-2">
+                  Object-oriented programming (OOP), before I thought it is just another subject that we need to take. But, this taught me how to be strong enough to face the challenges brought by online classes. It is very challenging for me to take this because it is a critical one that really requires knowledge and understanding in programming and it is I think what I lack. but, Ma’am Fajardo helped me and my classmates to better understand the topic she discussed. We are free to ask questions anytime. She helped us to think outside the box and work outside our comfort zones. What I learned from her will never be forgotten, so will she.
+                </p>
+              </div>
+            </div>
+          </div>
+        <!-- end individual card -->
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <script src="main.js"></script>
+</body>
+</html>
