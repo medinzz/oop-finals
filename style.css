@@ -30,7 +30,6 @@ html, body {
 
 .parallax-background{
   background-size: cover; 
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
@@ -62,7 +61,7 @@ html, body {
   text-decoration: none;
 }
 
-.team-card-bg{
+.bg-custom-gray{
   background-color: #8f8f8f;
 }
 
