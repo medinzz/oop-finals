@@ -102,6 +102,14 @@ html, body {
   letter-spacing: none !important;
 }
 
+.grow { 
+  cursor: pointer;
+  transition: all .15s ease-in-out; 
+}
+.grow:hover { 
+  transform: scale(1.1); 
+}
+
 a {color:#FFF;}         /* Unvisited link  */
 a:visited {color:#FFF;} /* Visited link    */
 a:hover {color:gainsboro;}   /* Mouse over link */
