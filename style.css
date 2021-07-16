@@ -58,7 +58,7 @@ html, body {
 }
 
 .toc-title{
-  font-size: 2rem !important;
+  font-size: 1.75rem !important;
   text-decoration: none;
 }
 
@@ -75,6 +75,7 @@ html, body {
 
 .team-heading{
   font-size: 1rem !important;
+  letter-spacing: 0 !important;
   color: #FFF !important;
   letter-spacing: none !important;
 }
@@ -88,7 +89,7 @@ html, body {
 }
 
 .team-text-2{
-  font-size: 14px;
+  font-size: .75rem !important;
   letter-spacing: 0;
   color: #000 !important;
   letter-spacing: none !important;
@@ -96,6 +97,7 @@ html, body {
 
 .team-heading-2{
   font-size: 1rem !important;
+  letter-spacing: 0 !important;
   color: #000 !important;
   letter-spacing: none !important;
 }
