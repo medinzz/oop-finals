@@ -26,6 +26,16 @@ html, body {
   background-blend-mode: multiply;
   width: 100%;
 }
+.oop_examples{
+  background-image: url('assets/images/oop.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: #FFF ;
+  width: 100%;
+
+}
 
 .oop-requirement-models{ /*lumaque's part*/
   background-image: url('assets/images/reqmodels.png');

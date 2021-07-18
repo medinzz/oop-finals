@@ -39,6 +39,7 @@ window.addEventListener("scroll", function() {
 // load external HTMLs
 $(document).ready( function() {
   $("#oop").load("components/oop.html");
+  $("#examples").load("components/oop_and_example.html");
   $("#gallery").load("components/gallery.html");
   $("#team").load("components/team.html");
   $("#oop-requirement-models").load("components/oop-requirement-models.html");
