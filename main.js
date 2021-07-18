@@ -26,4 +26,5 @@ $(document).ready( function() {
   $("#oop").load("components/oop.html");
   $("#gallery").load("components/gallery.html");
   $("#team").load("components/team.html");
+  $("#oop-requirement-models").load("components/oop-requirement-models.html");
 });

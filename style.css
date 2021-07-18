@@ -27,6 +27,30 @@ html, body {
   width: 100%;
 }
 
+.oop-requirement-models{ /*lumaque's part*/
+  background-image: url('assets/images/reqmodels.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  width: 100%;
+}
+
+.blend-container{
+  position: absolute;
+  width: 96%;
+  height: 90%;
+  background-color: gray;
+  opacity: .1;
+  display: block;
+  z-index: 0;
+  top: 0;
+}
+
+.oop-models-answers{
+  color: white;
+}
+
 .parallax-background{
   background-size: cover; 
   background-attachment: fixed;
