@@ -18,13 +18,12 @@ html, body {
   background: url('assets/images/table-of-content.jpg');
   color: #FFF;
 }
-.oop-template{
+.oop{
   background-image: url('assets/images/oop-background.png');
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 100% !important;
   width: 100%;
 }
 
