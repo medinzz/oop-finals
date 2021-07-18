@@ -19,7 +19,7 @@ html, body {
   color: #FFF;
 }
 .oop-template{
-  background-image: url('assets/images/oop-template.png');
+  background-image: url('assets/images/oop-background.png');
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -102,6 +102,21 @@ html, body {
   letter-spacing: none !important;
 }
 
+/* OOP page margins and Padding */
+/*  */
+.pad-title{
+  margin: 8rem auto; /* padding for title */
+}
+.text-shadow{
+  text-shadow:-7px 7px rgb(0, 0, 0);  /* text shadow for title */
+}
+.pad-text{ 
+  padding-top: 6rem !important; /* padding for title */
+}
+
+
+
+
 .grow { 
   cursor: pointer;
   transition: all .15s ease-in-out; 
@@ -127,5 +142,16 @@ a:active {color:#FFF;}  /* Selected link   */
   }
   .toc-title{
   font-size: 1rem !important;
+  }
+
+  /* oop definition */
+  .text-small{
+    font-size: 1rem !important;
+  }
+  .pad-title{
+    margin: 7rem auto; /* padding for title */
+  }
+  .pad-text{ 
+    padding: 0 !important; /* padding for title */
   }
 } 
