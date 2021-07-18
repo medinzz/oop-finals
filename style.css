@@ -36,6 +36,7 @@ html, body {
   width: 100%;
 }
 
+/* 
 .blend-container{
   position: absolute;
   width: 96%;
@@ -45,10 +46,11 @@ html, body {
   display: block;
   z-index: 0;
   top: 0;
-}
+} */
 
 .oop-models-answers{
   color: white;
+  background-color: rgba(220,220,220,0.1);
 }
 
 .parallax-background{
@@ -78,6 +80,11 @@ html, body {
   line-height: 2;
   /* identical to box height */
   letter-spacing: 0.15em;
+}
+
+/* oop page title and definition style*/
+.text-small{
+  font-size: 1rem !important; /* text style definition */
 }
 
 .toc-title{
@@ -133,9 +140,6 @@ html, body {
   text-shadow:-7px 7px rgb(0, 0, 0);  /* text shadow for title */
 }
 
-
-
-
 .grow { 
   cursor: pointer;
   transition: all .15s ease-in-out; 
@@ -149,7 +153,29 @@ a:visited {color:#FFF;} /* Visited link    */
 a:hover {color:gainsboro;}   /* Mouse over link */
 a:active {color:#FFF;}  /* Selected link   */
 
-@media only screen and (max-width: 576px) {
+#scrollToTop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#scrollToTop:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#scrollToTop:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+@media only screen and (max-width: 768px) {
   .text-heading{
   font-size: 2rem !important;
   }
@@ -161,11 +187,6 @@ a:active {color:#FFF;}  /* Selected link   */
   }
   .toc-title{
   font-size: 1rem !important;
-  }
-
-  /* oop page title and definition style*/
-  .text-small{
-    font-size: 1rem !important; /* text style definition */
   }
   .mg-style{
     margin: 3rem auto; /* margin for title and definition text*/

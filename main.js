@@ -21,7 +21,22 @@ let typed = new Typed('.typed-text', {
   loop: true
 });
 
+// button to scroll top
+document.querySelector("#scrollToTop").addEventListener("click", function () {
+  window.scrollTo(0, 0);
+});
+window.addEventListener("scroll", function() {
+  let btn = document.getElementById('scrollToTop');
+  if ( window.pageYOffset > 100 ) {
+    btn.classList.remove("d-none");
+  } else {
+    
+    btn.classList.add("d-none");
+  }
+});
 
+
+// load external HTMLs
 $(document).ready( function() {
   $("#oop").load("components/oop.html");
   $("#gallery").load("components/gallery.html");
