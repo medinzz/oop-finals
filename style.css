@@ -102,16 +102,12 @@ html, body {
   letter-spacing: none !important;
 }
 
-/* OOP page margins and Padding */
-/*  */
-.pad-title{
-  margin: 8rem auto; /* padding for title */
+/* OOP page styling */
+.mg-style{
+  margin: 3.5rem auto; /* margin for title and definition text*/
 }
 .text-shadow{
   text-shadow:-7px 7px rgb(0, 0, 0);  /* text shadow for title */
-}
-.pad-text{ 
-  padding-top: 6rem !important; /* padding for title */
 }
 
 
@@ -144,14 +140,11 @@ a:active {color:#FFF;}  /* Selected link   */
   font-size: 1rem !important;
   }
 
-  /* oop definition */
+  /* oop page title and definition style*/
   .text-small{
-    font-size: 1rem !important;
+    font-size: 1rem !important; /* text style definition */
   }
-  .pad-title{
-    margin: 7rem auto; /* padding for title */
-  }
-  .pad-text{ 
-    padding: 0 !important; /* padding for title */
+  .mg-style{
+    margin: 3rem auto; /* margin for title and definition text*/
   }
 } 
