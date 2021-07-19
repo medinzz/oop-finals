@@ -19,7 +19,7 @@ html, body {
   color: #FFF;
 }
 .oop{
-  background-image: url('assets/images/oop-background.png');
+  background-image: url('assets/images/oop-background.jpg');
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -27,7 +27,7 @@ html, body {
   width: 100%;
 }
 .oop_examples{
-  background-image: url('assets/images/oop.png');
+  background-image: url('assets/images/oop.jpg');
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
